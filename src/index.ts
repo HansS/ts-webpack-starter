@@ -10,4 +10,4 @@ const tick$ = interval(SPEED);
 
 const game$ = tick$;
 
-game$.subscribe(tick => render(ctx, tick));
+// game$.subscribe(tick => render(ctx, tick));
